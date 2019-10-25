@@ -64,7 +64,7 @@ function Time(){/*设置定时器运行的函数*/
     }
     aSpan[num].className = "on";
     aBanner[num].style.opacity = "1";
-  }else {
+  } else {
     num = -1;
   }
 }
