@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鑫速达-联系我们</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="header">
+    <div class="main-width">
+        <div class="header-left">
+            <div class="logo-box">
+                <img src="./images/logo.jpg" alt="logo" class="logo">
+            </div>
+        </div>
+        <div class="header-middle">
+            <ul>
+                <li><a href="index.html" class="active-color">首页</a></li>
+                <li class="header-dropdown-box">
+                    <a href="index.html">主营业务</a>
+                    <div class="header-dropdown">
+                        <ol>
+                            <li><a href="#">物流业务</a></li>
+                            <li><a href="#">仓储业务</a></li>
+                            <li><a href="#">快递业务</a></li>
+                            <li><a href="#">冷链业务</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li><a href="index.html">新闻中心</a></li>
+                <li><a href="index.html">关于我们</a></li>
+                <li><a href="index.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <img src="images/1.jpg" alt="" width="100%">
+</div>
+<div class="content">
+    <div class="bg-fff">
+        <div class="main-width">
+            <div class="contant">
+                <ul>
+                    <li>通讯地址：天津市东丽区赤欢路北1686号</li>
+                    <li>联系电话：16602280959</li>
+                    <li>电子邮箱：852529893@qq.com</li>
+                    <li>联系人：高先生</li>
+                    <li>邮编:300300</li>
+                </ul>
+            </div>
+            <img src="images/amap.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="main-width footer-main">
+        <div class="footer-left">
+            <div class="logo"></div>
+        </div>
+        <div class="footer-middle">
+            <ul>
+                <li><a href="#" target="_blank">首页</a></li>
+                <li><a href="#" target="_blank">主营业务</a></li>
+                <li><a href="#" target="_blank">新闻中心</a></li>
+                <li><a href="#" target="_blank">关于我们</a></li>
+                <li><a href="#" target="_blank">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <ul class="friendLink">
+                <li>
+                    <a><span class="wechat"></span></a>
+                    <div class="img-box wechat-box">
+                        <img src="images/wechat.png" alt="" width="70%">
+                    </div>
+                </li>
+                <li>
+                    <a href="http://weibo.com/zto200258" target="_blank"><span class="weibo"></span></a>
+                </li>
+                <li>
+                    <a><span class="qq"></span></a>
+                    <div class="img-box qq-box">
+                        <img src="images/qq.png" alt="" class="qq-img detail-img">
+                    </div>
+                </li>
+                <li>
+                    <a><span class="alipay"></span></a>
+                    <div class="img-box alipay-box">
+                        <img src="./images/alipay-1.png" alt="" class="alipay-img detail-img">
+                    </div>
+                </li>
+                <li>
+                    <a><span class="min-phone"></span></a>
+                    <div class="img-box app-box">
+                        <img src="./images/app.png" alt="" class="app-img detail-img">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-btm">
+        总部地址：天津市和平区xxx路xxx号 &nbsp;中通快递©版权所有&nbsp;沪ICP备13044869号
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.3.js"></script>
+<script type="text/javascript">
+    jQuery(".slideBox").slide({
+        mainCell: ".bd ul",
+        effect: "fold",
+        trigger: "click",
+        autoPlay: true,
+        mouseOverStop: false,
+        startFun:function(i,c){
+            $('.bd ul li').removeClass('active').eq(i).addClass('active');
+        }
+    });
+</script>
+<!-- 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</body>
+</html>
