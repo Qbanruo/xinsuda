@@ -240,6 +240,7 @@ body {
     position: relative;
 }
 .banner-title{
+    display: none;
     position: absolute;
     text-align: center;
     z-index: 999;

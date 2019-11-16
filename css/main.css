@@ -255,7 +255,7 @@ img{border:none}
 }
 .contant{
     overflow: hidden;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 .company-name{
     line-height: 45px;
@@ -264,7 +264,7 @@ img{border:none}
     padding: 20px 0;
 }
 .about-img{
-    width: 50%;
+    width: 750px;
     margin: auto;
     padding: 20px 0;
 }
@@ -328,7 +328,7 @@ img{border:none}
     box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
 }
 .main-business-left-menu ul li.active {
-    background: linear-gradient(90deg,#5db0f8 0%, rgba(253,174,50,1) 100%);
+    background: linear-gradient(90deg,#5db0f8 0%, #6db9fc 100%);
     /*background: linear-gradient(90deg,rgba(237,105,0,1) 0%,rgba(253,174,50,1) 100%);*/
 }
 .main-business-left-menu ul li.active a{
@@ -423,6 +423,9 @@ img{border:none}
 .profile_top ul li:last-child {
     padding-right: 0;
 }
+.profile_top ul li:last-child:after {
+    background: none;
+}
 .profile_middle {
     position: relative;
     padding-bottom: 30px;
@@ -438,7 +441,6 @@ img{border:none}
 .profile_middle .block1 {
     width: 700px;
     height: 250px;
-    background: url('../images/product_business_pic1.png') no-repeat;
     margin: 45px auto 12px;
 }
 .part_three {
@@ -529,4 +531,7 @@ img{border:none}
 }
 .next-new-right{
     text-align: right;
+}
+.amap{
+    padding: 20px 0;
 }
